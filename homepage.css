@@ -16,8 +16,6 @@ text-decoration: none;
 li {
 display: inline-block;
  padding: 10px;
-  background-color: lightcyan;
-border-radius: 5px;
 }
 
 .slogan {
@@ -31,7 +29,7 @@ color: #faf37f;
 .main-footer {
   background-color: #000;
   
-  border-radius: 25px;
+  
 }
 
 
@@ -89,4 +87,5 @@ text-align: right;
 .contact-list {
 text-align: right;
   list-style-type: none;
+  display: block;
 }
