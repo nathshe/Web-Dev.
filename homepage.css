@@ -7,11 +7,17 @@ color: #faf37f;
  
 }
 
+h4 {
+border-top: 2px solid rgba(250, 243, 127, .5);
+  padding: 20px;
+}
+
 a:link {
 text-decoration: none;
   color: #000;
   font-family: "Comic Sans MS", cursive, sans-serif;
 }
+
 
 li {
 display: inline-block;
@@ -21,7 +27,7 @@ display: inline-block;
 .slogan {
 color: #faf37f;
   font-family: "Comic Sans MS", cursive, sans-serif;
-  padding: 20px;
+  padding: 0 20px 0;
 
 }
 
@@ -36,7 +42,7 @@ color: #faf37f;
 .tab {
 display: inline-block;
   width: 70px;
-  background-color: #faf37f;
+  background-image: linear-gradient(to top, white, #faf37f 60%);
   padding: 5px;
   text-align: center;
   text-transform: uppercase;
@@ -57,11 +63,12 @@ width: 50%;
   text-align: center;
   padding: 40px;
   font-family: "Comic Sans MS", cursive, sans-serif;
+ padding-bottom: 100px;
 }
 
 .experience-list {
 list-style-type: none;
-  display: inline-block
+  display: inline-block;
 }
 
 .learn-list {
@@ -70,8 +77,8 @@ list-style-type: none;
 }
 
 .main-footer {
-background-color: #faf37f
-    position: absolute;
+background-color: #faf37f;
+  
   font-family: "Comic Sans MS", cursive, sans-serif;
   color: #faf37f;
   background-color: #000;
@@ -84,8 +91,24 @@ background-color: #faf37f
 text-align: right;
 }
 
-.contact-list {
+.contact-email {
 text-align: right;
   list-style-type: none;
   display: block;
+
+ 
 }
+
+  
+
+.li-color-box {
+background-color: #bff2f2;
+  background-image: radial-gradient(white, #bff2f2);
+  border-radius: 10px;
+}
+
+.self-portrait {
+height: 400px;
+  width: 400px;
+}
+
